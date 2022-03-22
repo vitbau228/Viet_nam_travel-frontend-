@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <link rel="stylesheet" href="../asset/css/style.css">
+    <link rel="stylesheet" href="../asset/css/reset-css.css">
+    <link rel="stylesheet" href="../asset/css/base.css">
+    <link rel="stylesheet" href="../asset/css/reponsive.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="wraper">
+    <!-- header start -->
+    <div class="header align flex">
+        <!-- logo -->
+        <div class="logo-container">
+            <a href="#"><img src="../asset/img/content-img/logo.png" alt="logo" class="logo-img"></a>
+           
+        </div>
+        <!-- nav -->
+        <nav class="navigation-container">
+            <ul class="list-menu flex">
+                <li class="list-item-menu"><a href="./top.html" class="list-item-menu-link">TOP</a></li>
+                <li class="list-item-menu"><a href="./sub.html" class="list-item-menu-link">SUB</a></li>
+                <li class="list-item-menu"><a href="./sub.html" class="list-item-menu-link">CONTACT</a></li>
+                <li class="list-item-menu"><a href="./sub.html" class="list-item-menu-link">GUIDE</a></li>
+               
+            </ul>
+
+            <div class="box-container-small">
+                <div class="container-button-menu" onclick="menuButtonChange(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <ul class="small-menu-list">
+                    <li class=" small-menu-list-item"><a href="./top.html" class="list-item-menu-link">HOME</a></li>
+                    <li class=" small-menu-list-item"><a href="./sub.html" class="list-item-menu-link">ABOUT</a></li>
+                    <li class=" small-menu-list-item"><a href="./sub.html" class="list-item-menu-link">CONTACT</a></li>
+                    <li class=" small-menu-list-item"><a href="./sub.html" class="list-item-menu-link">GUIDE</a></li>
+               
+                </ul>  
+            </div>
+           
+        </div>
+        </nav>
+       
+    <!-- header end -->
+
+    <!-- main start --> 
+    <main class="main-container">
+        <div class="slides-container">
+            <div class="banner-container-list justify">
+            
+                <div class="banner-image-container fade"><img src="../asset/img/banner-img/cau-vang-da-nang.jpg" alt="image1" class="banner-img"></div>
+                <div class="banner-image-container fade"><img src="../asset/img/banner-img/lanterns-in-the-market.-pc.-urlaubsguru.de_-1.jpg" alt="image3" class="banner-img"></div>
+                <div class="banner-image-container fade"><img src="../asset/img/banner-img/pexels-photo-92090.jpeg" alt="image3" class="banner-img"></div>
+                
+            </div>
+    
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                
+            </div>
+            <div class="banner-shadow-img-box">
+                <img src="../asset/img/banner-img/shadow.png" alt="">
+                <img class = "sparator" src="../asset/img/banner-img/separator.png" alt="">
+            </div>
+        </div>
+
+        <section class="section-content">
+            <div class="content-img-wrapper">
+                <img class="myImg" src="../asset/img/slide-img/bana2.jpg" alt="ベトナムのBA NA ">
+                <img class="myImg" src="../asset/img/slide-img/hoian.jpg" alt="ベトナムのHOI AN">
+            
+            </div>
+            <div class="banner-shadow-img-box">
+                <img src="../asset/img/banner-img/shadow.png" alt="">
+                <img  class = "sparator" src="../asset/img/banner-img/separator.png" alt="">
+            </div>
+        </section>
+
+        <section class="section-content">
+
+         <div class="slides-content-img-container">
+            <div class="content-img-wrapper-box fade ">
+                <img class="myImg" src="../asset/img/slide-img/0-3.jpg" alt="ベトナムの観光地">
+                <img class="myImg" src="../asset/img/slide-img/1057_deo_hai_van.jpg" alt="ベトナムの観光地">
+                <img class="myImg" src="../asset/img/slide-img/bana2.jpg" alt="ベトナムの観光地">
+            </div>
+
+            <div class="content-img-wrapper-box fade ">
+                <img class="myImg" src="../asset/img/slide-img/bana3.jpg" alt="ベトナムの観光地">
+                <img class="myImg" src="../asset/img/slide-img/bana4.jpeg" alt="ベトナムの観光地">
+                <img class="myImg" src="../asset/img/slide-img/coco.jpg" alt="ベトナムの観光地">
+            </div> 
+
+            <div class="content-img-wrapper-box fade">
+                <img class="myImg" src="../asset/img/slide-img/coco2.jpg" alt="ベトナムの観光地">
+                <img class="myImg" src="../asset/img/slide-img/my-son.jpg" alt="ベトナムの観光地">
+                <img class="myImg" src="../asset/img/slide-img/hoian.jpg" alt="ベトナムの観光地">
+            </div>
+
+            <div class="content-img-wrapper-box fade">
+                <img class="myImg" src="../asset/img/content-img/lang-hoa.jpg" alt="ベトナムの観光地">
+                <img class="myImg" src="../asset/img/content-img/phu-quoc-island-vietnam-ivivu.jpg" alt="ベトナムの観光地">
+                <img class="myImg" src="../asset/img/slide-img/hoian.jpg" alt="ベトナムの観光地">
+            </div>
+
+            <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+         </div>
+        
+
+        </section>
+
+        <section class="section-content">
+            <div class="content-img-grid-wrapper">
+                <img class = "myImg" src="../asset/img/content-img/105152_og_1.jpeg" alt="ベトナムの料理" class="grid-content-img">
+                <img class = "myImg" src="../asset/img/content-img/com-ga.jpg" alt="ベトナムの料理" class="grid-content-img">
+                <img class = "myImg" src="../asset/img/content-img/banh-goi.jpg" alt="ベトナムの料理" class="grid-content-img">
+                <img class = "myImg" src="../asset/img/content-img/banh-xeo.jpg" alt="ベトナムの料理" class="grid-content-img">
+                <img class = "myImg" src="../asset/img/content-img/mon-ngon-da-nang.jpg" alt="ベトナムの料理" class="grid-content-img">
+                <img class = "myImg" src="../asset/img/content-img/cua.jpg" alt="ベトナムの料理" class="grid-content-img">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class = "text-center text-wraper">
+            <span> COPPYRIGHT 20WE006 </span>
+        </div>
+    </footer>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+   
+    <img class="modal-content" id="img01">
+<div id="caption"></div>
+<!-- Modal end -->
+
+</div>
+    <script src="../asset/js/appjs.js"></script>
+</body>
+</html>
